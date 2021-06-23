@@ -1,0 +1,88 @@
+
+h3 {
+    color: white;
+    padding-top: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h5 {
+    color: white;
+}
+
+.img-fluid {
+    max-width: 100%
+}
+
+.site-footer {
+    background-image: linear-gradient(#16222a, #3a6073);
+    padding: 20px 0;
+
+}
+
+.jumbotron {
+    padding: 1px;
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white; 
+    margin-bottom:0;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    margin-bottom:0;
+    font-size: 20px;
+   
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 1px;
+    bottom: 20px;
+    z-index: 100;
+    
+}
+
+.newsletter-subscribe {
+    color: black;
+    background-image: linear-gradient(to right,#bdc3c7, #2c3e50);
+    padding: 55px 74px;
+    border: #2c3e50;
+
+}
+
+.newsletter-subscribe p {
+    color: black;
+    line-height: 1.5
+}
+
+.newsletter-subscribe h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    line-height: 1.5;
+    padding-top: 0;
+    margin-top: 0;
+    color: inherit
+}
+
+.newsletter-subscribe .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 25px
+}
+
+.newsletter-subscribe .intro p {
+    margin-bottom: 35px
+}
+
+.form-inline {
+    margin-left: 325px;
+}
