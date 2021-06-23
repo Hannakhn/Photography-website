@@ -30,7 +30,7 @@
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <!--the href points to the same page-->
-            <a class="navbar-header" href="#"><img src="images/Logo - white.png" height="30" width="30" /></a>
+            <a class="navbar-header" href="index.html"><img src="images/Logo - white.png" height="30" width="30" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNavBar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,9 +46,117 @@
             </div>
         </div>
     </nav>
+    <!--Form Section-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Contact</li>
+                </ol>
+                <h2 class="textTitle">Contact Us</h2>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center">
+            <div class="col-sm-4 textTitle">
+                <h5>Our Address</h5>
+                <address>
+                    Miami, FL
+                </address>
+            </div>
+            <!--Button created using the bootstrap btn components-->
+            <div class="col textTitle">
+                <a role="button" class="btn btn-link" href="tel:+18000000000"></a><i class="fa 
+                fa-phone"></i> 1-800-000-0000<br>
+                <a role="button" class="btn btn-link" href="mailto:Hannakhn@hotmail.com"></a><i class="fa 
+                fa-envelope-o"></i> Hannakhn@hotmail.com
+            </div>
+        </div>
+
+        <div class="row row-content text-align-center">
+            <div class="col-12">
+                <h2 class="textTitle">Get in Touch</h2>
+                <p class="textTitle">Have a question?</p>
+                <p class="textTitle">Thinking about booking a session?</p>
+                <hr />
+            </div>
+            <div class="col-md-10">
+
+                <!--Form Section for text input-->
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName"
+                                placeholder=" First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName"
+                                placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode"
+                                placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="sunject" class="col-md-2 col-form-label">Subject*</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="subject" name="subject"
+                                placeholder="Subject*" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Message*</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn-btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--NewsLetter Section-->
+    <div class="card text-center">
+        <div class="card-header">
+            Stay in the Loop!
+        </div>
+        <div class="card-body">
+            <p class="card-text">Subscribe to my newsletter to stay in the loop with upcoming photography events,
+                specials, tips, and more!</p>
+            <input type="email" name="email" id="email" placeholder="Enter Email" />
+            <a href="#" class="btn btn-info">Subscribe</a>
+        </div>
+        <div class="card-footer text-muted">
+        </div>
+    </div>
 
     <footer class="site-footer">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
                     <h5>Links</h5>
