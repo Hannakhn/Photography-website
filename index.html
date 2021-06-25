@@ -39,13 +39,19 @@
                 <ul class="navbar-nav">
                     <li class="nav-item active"><a class="nav-link" href="#"></i>Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <a class="nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" href="portfolio.html" role="button" aria-haspopup="true" aria-expanded="false">Portfolio</a>
+                    <div class="dropdown-menu">
+                        <a data-toggle="tab" class="dropdown-item" href="portfolio.html">People</a>
+                        <a data-toggle="tab" class="dropdown-item" href="#">Dance</a>
+                        <a data-toggle="tab" class="dropdown-item" href="#">Sports</a>
+                    </div>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"></i>Ideas</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!--Drop down for portfolio link in Nav Bar-->
 
     <div class="container">
         <!--Carousel Section for Images-->
@@ -102,16 +108,17 @@
         <!--NewsLetter Section-->
         <div class="card text-center">
             <div class="card-header">
-              Stay in the Loop!
+                Stay in the Loop!
             </div>
             <div class="card-body">
-              <p class="card-text">Subscribe to my newsletter to stay in the loop with upcoming photography events, specials, tips, and more!</p>
-              <input type="email" name="email" id="email" placeholder="Enter Email"/>
-              <a href="#" class="btn btn-info">Subscribe</a>
+                <p class="card-text">Subscribe to my newsletter to stay in the loop with upcoming photography events,
+                    specials, tips, and more!</p>
+                <input type="email" name="email" id="email" placeholder="Enter Email" />
+                <a href="#" class="btn btn-info">Subscribe</a>
             </div>
             <div class="card-footer text-muted">
             </div>
-          </div>
+        </div>
 
         <!--Footer with links-->
         <footer class="site-footer">
@@ -122,8 +129,9 @@
                         <ul class="list-unstyled">
                             <li><a href="#"> Home</a></li>
                             <li><a href="about.html"> About</a></li>
-                            <li><a href="#"> Sites</a></li>
+                            <li><a href="portfolio.html"> Portfolio</a></li>
                             <li><a href="contact.html"> Contact</a></li>
+                            <li><a href="#"> Ideas</a></li>
                         </ul>
                     </div>
                     <div class="col-6 col-sm-5

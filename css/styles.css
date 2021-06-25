@@ -17,6 +17,7 @@ h5 {
     background-image: linear-gradient(#16222a, #3a6073);
     padding: 20px 0;
     margin-top: 0;
+    font-family: 'Courier New', Courier, monospace
 
 }
 
@@ -31,6 +32,7 @@ h5 {
     background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
     margin-bottom:0;
     font-size: 20px;
+    font-family:'Courier New', Courier, monospace
    
 }
 
@@ -61,4 +63,8 @@ h5 {
 .textTitle {
     text-align: center;
     font-family:'Courier New', Courier, monospace
+}
+
+.dropdown-menu {
+    position: relative;
 }

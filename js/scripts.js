@@ -12,3 +12,9 @@ $(function () {
         }
     });
 });
+
+$('.nav-tabs').on('shown.bs.tab', 'a', function (e) {
+    if (e.currentTarget) {
+        $(e.currentTarget).removeClass('active');
+    }
+});
