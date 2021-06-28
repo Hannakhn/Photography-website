@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Hanna Khan Photography</title>
+</head>
+
+<!--Jumbotron-->
+
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-lg-2 align-self-center">
+                    <img src="images/Logo - white.png" class="img-fluid" alt="Hanna Khan Photography logo" />
+                </div>
+    </header>
+    <!--Card with Photo-->
+
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <!--the href points to the same page-->
+            <a class="navbar-header" href="index.html"><img src="images/Logo - white.png" height="30" width="30" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNavBar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Nav bar Menu-->
+            <div class="collapse navbar-collapse" id="topNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"></i>Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <div class="dropdown">
+                        <a class="nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="familygallery.html">Family</a>
+                            <a class="dropdown-item" href="dance.html">Dance</a>
+                            <a class="dropdown-item" href="#">Sports</a>
+                        </div>
+                    </div>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"></i>Ideas</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Photo cards-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card-columns justify-content-evenly mt-3 col-12">
+                <div class="card" id="danceFirstPhoto">
+                    <img src="images/Gizcel 1.jpg" class="card-img" alt="Mindy 2" data-toggle="modal"
+                        data-target="#exampleModalLabel">
+                </div>
+                <div class="card" id="danceSecondPhoto">
+                    <img src="images/Gizcel 3.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                        data-target="#exampleModalLabel1">
+                </div>
+                <div class="card" id="danceThirdPhoto">
+                    <img src="images/Gizcel 4.jpg" class="card-img" alt="Mindy 4" data-toggle="modal"
+                        data-target="#exampleModalLabel2">
+                </div>
+                <div class="card" id="danceFourthPhoto">
+                    <img src="images/Gizcel 2.jpg" class="card-img" alt="Mindy 4" data-toggle="modal"
+                        data-target="#exampleModalLabel3">
+                </div>
+                <div class="card" id="danceFifthPhoto">
+                    <img src="images/Gizcel 7.jpg" class="card-img" alt="Mindy 4" data-toggle="modal"
+                        data-target="#exampleModalLabel4">
+                </div>
+                <div class="card" id="danceSixthPhoto">
+                    <img src="images/Gizcel 6.jpg" class="card-img" alt="Mindy 7" data-toggle="modal"
+                        data-target="#exampleModalLabel5">
+                </div>
+                <div class="card" id="danceSeventhPhoto">
+                    <img src="images/Gizcel 5.jpg" class="card-img" alt="Jac & Penny" data-toggle="modal"
+                        data-target="#exampleModalLabel6">
+                </div>
+                <div class="card" id="danceEighthPhoto">
+                    <img src="images/Gizcel 9.jpg" class="card-img" alt="Jac & Penny" data-toggle="modal"
+                        data-target="#exampleModalLabel7">
+                </div>
+                <div class="card" id="danceEighthPhoto">
+                    <img src="images/Gizcel 10.jpg" class="card-img" alt="Jac & Penny" data-toggle="modal"
+                        data-target="#exampleModalLabel8">
+                </div>
+            </div>
+        </div>
+
+        <!--Modals-->
+        <!-- Modal -->
+        <!-- Button trigger modal -->
+        <a href="#danceFirstPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel"></a>
+
+        <!-- Modal First Photo-->
+        <div class="modal fade" id="exampleModalLabel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 1.jpg" class="card-img" alt="Mindy 2" data-toggle="modal"
+                            data-target="#exampleModalLabel">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <a href="#danceSecondPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel1"></a>
+        <!-- Modal second Photo-->
+        <div class="modal fade" id="exampleModalLabel1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 3.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                            data-target="#exampleModalLabel">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <a href="#danceThirdPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel2"></a>
+        <!-- Modal third Photo-->
+        <div class="modal fade" id="exampleModalLabel2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 4.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                            data-target="#exampleModalLabel2">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <a href="#danceFourthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel3"></a>
+        <!-- Modal fourth Photo-->
+        <div class="modal fade" id="exampleModalLabel3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel3"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 2.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                            data-target="#exampleModalLabel3">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <a href="#danceFifthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel4"></a>
+        <!-- Modal fifth Photo-->
+        <div class="modal fade" id="exampleModalLabel4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel4"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 7.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                            data-target="#exampleModalLabel4">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <a href="#danceSixthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel5"></a>
+        <!-- Modal sixth Photo-->
+        <div class="modal fade" id="exampleModalLabel5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel5"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="images/Gizcel 6.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                            data-target="#exampleModalLabel5">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <a href="#danceSeventhPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel4"></a>
+    <!-- Jac's first Photo-->
+    <div class="modal fade" id="exampleModalLabel6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel6"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/Gizcel 5.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                        data-target="#exampleModalLabel4">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <a href="#DanceEighthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel7"></a>
+    <!-- Modal fifth Photo-->
+    <div class="modal fade" id="exampleModalLabel7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel7"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/Gizcel 9.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                        data-target="#exampleModalLabel7">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <a href="#danceNinthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel8"></a>
+    <!-- Modal fifth Photo-->
+    <div class="modal fade" id="exampleModalLabel8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel8"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/Gizcel 10.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                        data-target="#exampleModalLabel8">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <a href="#danceTenthPhoto" id="exampleModal" data-toggle="modal" data-target="#exampleModalLabel9"></a>
+    <!-- Modal fifth Photo-->
+    <div class="modal fade" id="exampleModalLabel9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel9"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="images/Jac & Penny 7.jpg" class="card-img" alt="Mindy 3" data-toggle="modal"
+                        data-target="#exampleModalLabel9">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Footer with links-->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="about.html"> About</a></li>
+                        <li><a href="portfolio.html"> Portfolio</a></li>
+                        <li><a href="contact.html"> Contact</a></li>
+                        <li><a href="#"> Ideas</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5
+                            text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa 
+                        fa-phone"></i> 1-800-000-0000</a><br>
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa 
+                        fa-envelope-o"></i> Hannakhn@hotmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
