@@ -19,7 +19,7 @@ h6 {
 }
 
 body{
-    background-color: black;
+    background-color: rgb(16, 24, 29);
     color: white;
     font-family:'Courier New', Courier, monospace;
 }
@@ -47,12 +47,18 @@ p {
     margin-bottom:0;
 }
 
+
 .navbar {
     background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
     margin-bottom:0;
     font-size: 20px;
     font-family:'Courier New', Courier, monospace
    
+}
+
+.breadcrumb {
+    color: white;
+    background-image: linear-gradient(to right, #0f2027, #254e5c, #274c5c); 
 }
 
 .carousel-caption {
@@ -95,7 +101,7 @@ p {
 }
 
 .card {
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .card text-center mb-3{
@@ -104,7 +110,7 @@ p {
 
 #firstProfileCard {
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;  
+    font-size: 20px; 
 }
 
 .navbar navbar-expand-lg {
@@ -124,3 +130,4 @@ p {
     top: 0;
     left: 0;
   }
+
