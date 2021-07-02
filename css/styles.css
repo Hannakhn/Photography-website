@@ -6,11 +6,13 @@ h3 {
     color: white;
     padding-top: 45px;
     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 h5 {
     color: white;
     font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 h6 {
@@ -46,7 +48,6 @@ p {
     color: white; 
     margin-bottom:0;
 }
-
 
 .navbar {
     background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
@@ -102,11 +103,11 @@ p {
 
 .card {
     color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, #274c5c, #f3e8e0, #274c5c);
+    font-weight: bold;
+    border: 3px, solid, #274c5c;
 }
 
-.card text-center mb-3{
-    border-radius: 5%;
-}
 
 #firstProfileCard {
     font-family:'Courier New', Courier, monospace;
@@ -117,17 +118,25 @@ p {
     background-color: white;
 }
 
-.indexImage {
-    min-height: 100%;
-    min-width: 1024px;
-      
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-      
-    /* Set up positioning */
-    position: relative;
-    top: 0;
-    left: 0;
-  }
+.indexBody {
+background-image: url("../images/Gizcel\ 14.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 
+.link {
+    text-decoration: none !important;
+    font-family:monospace;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px #274c5c; 
+}
+
+.portfolioDropdown {
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-shadow: 1px 1px black; 
+}
