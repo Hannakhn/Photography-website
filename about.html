@@ -28,7 +28,7 @@
 
     <!--NavBar-->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
+        <div class="container pull-right">
             <!--the href points to the same page-->
             <a class="navbar-header" href="index.html"><img src="images/Logo - white.png" height="30" width="30" /></a>
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNavBar">
@@ -57,28 +57,22 @@
         </div>
     </nav>
     <!--Breadcrumbs-->
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">About</li>
-                </ol>
-                <hr />
-            </div>
-        </div>
+  
         <!--About me body section "Cards"-->
-        <h1 class="text-center mb-3">About Me</h1>
+        <h1 class="text-center mt-3 mb-3">About Me</h1>
         <div class="container">
         <div class="card mb-3 text-center" style="max-width: 1150px;">
-          <div class="row no-gutters">
+          <div class="row no-gutters align-items-center">
             <div class="col-md-4">
               <img src="images/Profile Pic.PNG" class="card-img" alt="Profile Picture">
             </div>
             <div class="col-md-8">
               <div class="card-body" id="firstProfileCard">
                 <h4 class="card-title">Hello, I'm Hanna Khan. A photographer based in Miami, Florida.</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc sed velit dignissim sodales ut eu sem integer. Cum sociis natoque penatibus et magnis dis parturient montes. Turpis in eu mi bibendum neque egestas congue. Sit amet aliquam id diam maecenas ultricies. Mi quis hendrerit dolor magna eget est lorem ipsum dolor. Ut sem viverra aliquet eget. Non consectetur a erat nam at lectus urna duis. Morbi tristique senectus et netus et malesuada fames ac. Consequat interdum varius sit amet mattis. Sit amet mauris commodo quis. Vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor. Rhoncus aenean vel elit scelerisque mauris.</p>
+                <p class="card-text">I've been photographing for a few years now and have really enjoyed expressing my creative side through my photographs. I genuinely enjoy photographing many subjects, so I don't specialize in just one area (The more the merrier!).
+                    Apart from photography, some of my hobbies include running, traveling, and eating as many chocolate chip cookies as possible.
+                    I am available for any type of photography sessions, as well as shooting events in the Miami area. Prints of my personal work are also available.
+                    I'd love to hear from you, so feel free to contact me. Thank you for taking time to look at my site and work; I hope to meet you in the near future.</p>
               </div>
             </div>
           </div>
@@ -99,7 +93,34 @@
 
 
         <!--NewsLetter Section-->
-
+        <div class="container">
+            <div class="row d-flex justify-content-center mx-auto">
+                <div class="col-md-6">
+                    <div class="card text-center mb-4">
+                        <div class="card-body text-center">
+                            <h4>Stay in the Loop!</h4>
+                            <p>Subscribe to my newsletter to stay in the loop with upcoming photography
+                    events,
+                    specials, tips, and more!
+                            </p>
+                            <form>
+                                <div class="form-group col-md-8 justify-content-center mx-auto">
+                                    <label for="newsletter-name" class="hidden">Name</label>
+                                    <input type="name" class="form-control" id="newsletter-name" placeholder="Name">
+                                </div>
+                                <div class="form-group col-md-8 justify-content-center mx-auto">
+                                    <label for="newsletter-email" class="hidden">Email address</label>
+                                    <input type="email" class="form-control" id="newsletter-email" placeholder="Email">
+                                </div>
+                                <button type="submit" class="btn btn-default btn-block btn-info col-sm-4 justify-content-center mx-auto">Subscribe</button>
+                            </form>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
 <!--Footer-->
         <footer class="site-footer">
             <div class="container-fluid">
@@ -107,9 +128,9 @@
                     <div class="col-4 col-sm-2 offset-1">
                         <h5>Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#"> Home</a></li>
+                            <li><a href="index.html"> Home</a></li>
                             <li><a href="about.html"> About</a></li>
-                            <li><a href="portfolio.html"> Portfolio</a></li>
+                            <li><a href="familygallery.html"> Portfolio</a></li>
                             <li><a href="contact.html"> Contact</a></li>
                             <li><a href="ideas.html"> Ideas</a></li>
                         </ul>

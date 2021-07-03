@@ -14,30 +14,22 @@
     <title>Hanna Khan Photography</title>
 </head>
 
-<!--Jumbotron-->
-
-<body>
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col-4 col-sm-3 col-lg-2 align-self-center">
-                    <img src="images/Logo - white.png" class="img-fluid" alt="Hanna Khan Photography logo" />
-                </div>
+<body class="indexBody">
+    <div class="col-4 col-sm-3 col-lg-2 align-self-center">
+        <img src="images/Logo - white.png" class="img-fluid" alt="Hanna Khan Photography logo" />
+    </div>
     </header>
-    <!--Card with Photo-->
 
     <!--NavBar-->
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <nav class="navbar-navbar fixed-top navbar-expand-lg navbar-dark">
+        <a class="navbar-header" href="index.html"><img src="images/Logo - white.png" height="30" width="30" /></a>
+        <button class="navbar-toggler pull-right mt-1 mr-2" type="button" data-toggle="collapse"
+            data-target="#topNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="container">
-            <!--the href points to the same page-->
-            <a class="navbar-header" href="index.html"><img src="images/Logo - white.png" height="30" width="30" /></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#topNavBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Nav bar Menu-->
-            <div class="collapse navbar-collapse" id="topNavBar">
+            <div class="collapse navbar-collapse pull-right mr-2" id="topNavBar">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <div class="dropdown">
                         <a class="nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
@@ -56,132 +48,24 @@
             </div>
         </div>
     </nav>
-    <!--Drop down for portfolio link in Nav Bar-->
 
-    <div class="container">
-        <!--Carousel Section for Images-->
-        <div class="row row-content">
-            <div class="col-md-12 mx-auto">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                    </ol>
-                    <!--Place indicators at top of carousel div-->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="images/Gizcel 5.jpg" alt="Gizcel Dance Image" />
-                            <!--Carousel Captions for images-->
-                            <div class="carousel-caption">
-                                <h3>Gizcel</h3>
-                                <p class="d-none d-sm-block">Gizcel's Dance Photoshoot</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="images/Mindy 2.jpg" alt="Mindy's Family Photoshoot" />
-                            <!--Carousel Captions for images-->
-                            <div class="carousel-caption">
-                                <h3>Mindy & Family</h3>
-                                <p class="d-none d-sm-block">Mindy's Family Photoshoot</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="images/U17 Girls 2.jpg" alt="Girls Soccer" />
-                            <!--Carousel Captions for images-->
-                            <div class="carousel-caption">
-                                <h3>U17 Girls Soccer</h3>
-                                <p class="d-none d-sm-block">Albion SC Miami U17 Girl's Soccer Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                    <button class="btn btn-dark btn-sm" id="carouselButton">
-                        <i class="fa fa-pause"></i>
-                    </button>
-                </div>
-            </div>
+
+    <!--Footer with links-->
+    <footer>
+        <div class="col-6 col-sm-5 text fixed-bottom">
+            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                    class="fa fa-instagram"></i></a>
+            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
         </div>
-        <hr />
-        <!--NewsLetter Section-->
-
-        <div class="container">
-            <div class="row d-flex justify-content-center mx-auto">
-                <div class="col-md-6">
-                    <div class="card text-center mb-4">
-                        <div class="card-body text-center">
-                            <h4>Stay in the Loop!</h4>
-                            <p>
-                                Subscribe to my newsletter to stay in the loop with upcoming photography
-                    events,
-                    specials, tips, and more!
-                            </p>
-                            <form>
-                                <div class="form-group col-md-8 justify-content-center mx-auto">
-                                    <label for="newsletter-name" class="hidden">Name</label>
-                                    <input type="name" class="form-control" id="newsletter-name" placeholder="Name">
-                                </div>
-                                <div class="form-group col-md-8 justify-content-center mx-auto">
-                                    <label for="newsletter-email" class="hidden">Email address</label>
-                                    <input type="email" class="form-control" id="newsletter-email" placeholder="Email">
-                                </div>
-                                <button type="submit" class="btn btn-default btn-block btn-info col-md-6 justify-content-center mx-auto">Subscribe</button>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Footer with links-->
-        <footer class="site-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="index.html"> Home</a></li>
-                            <li><a href="about.html"> About</a></li>
-                            <li><a href="portfolio.html"> Portfolio</a></li>
-                            <li><a href="contact.html"> Contact</a></li>
-                            <li><a href="ideas.html"> Ideas</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-sm-5
-                        text-center">
-                        <h5>Social</h5>
-                        <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
-                                class="fa fa-instagram"></i></a>
-                        <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
-                                class="fa fa-facebook"></i></a>
-                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
-                                class="fa fa-twitter"></i></a>
-                        <a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i
-                                class="fa fa-youtube"></i></a>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa 
-                    fa-phone"></i> 1-800-000-0000</a><br>
-                        <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa 
-                    fa-envelope-o"></i> Hannakhn@hotmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
+    </footer>
 
 
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
